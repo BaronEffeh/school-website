@@ -1,0 +1,41 @@
+.statement-cards {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 30px;
+   margin-top: 3rem;
+}
+
+.statement-card {
+   /* background: #998585; */
+   /* height: 200px;
+   width: 100%; */
+   border: none;
+   border-radius: 5px;
+   padding: 20px;
+   box-shadow: rgb(0 0 0 / 20%) 0px 4px 8px 0px, rgb(0 0 0 / 19%) 0px 6px 20px 0px;
+   align-items: center;
+   justify-content: center;
+}
+
+.statement-card:hover {
+   color: #212EA0;
+   border-top: 2px dotted #212EA0;
+}
+
+.statement-card-title {
+   background: #f7f4f4;
+   color: #212121;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 80%;
+   margin: -20px auto;
+   border-top: 4px solid #212EA0;
+   border-radius: 0 0 10px 10px;
+   box-shadow: rgb(0 0 0 / 20%) 0px 4px 8px 0px, rgb(0 0 0 / 19%) 0px 6px 20px 0px;
+}
+
+.statement-card p {
+   margin-top: 3rem;
+   line-height: 1.5rem;
+}

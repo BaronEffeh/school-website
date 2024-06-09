@@ -1,0 +1,27 @@
+.about-welcome-msg {
+   line-height: 2rem;
+}
+
+.about-welcome-img {
+   object-fit: cover;
+   float: left;
+   width: 300px;
+   padding-right: 3rem;
+   border: none;
+   border-radius: 20px;
+}
+
+.about-welcom-title {
+   color: #212EA0;
+}
+
+.about-welcom-head {
+   color: #000F38;
+}
+
+.about-welcom-text {
+   overflow: hidden;
+   text-align: justify;
+
+   /* background: magenta; */
+}

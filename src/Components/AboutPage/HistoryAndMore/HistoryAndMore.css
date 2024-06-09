@@ -1,0 +1,45 @@
+.our-history {
+   height: 100vh;
+   /* background: mediumturquoise; */
+}
+
+.our-history hr {
+   width: 5rem;
+   height: 4px;
+   margin: auto;
+   margin-bottom: 2rem;
+   background: #212EA0;
+}
+
+.our-history-title {
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 5rem;
+   color: #212EA0;
+}
+
+.history {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 30px;
+}
+
+.history-left {
+   /* height: 100px; */
+   width: 100%;
+}
+
+.history-left img {
+   object-fit: cover;
+   border: none;
+   border-radius: 10px;
+   width: 100%;
+}
+
+.history-right {
+   /* height: 100px; */
+   width: 100%;
+   text-align: justify;
+   line-height: 2rem;
+}

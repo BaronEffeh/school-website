@@ -1,0 +1,51 @@
+.photo-gallery {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 5px;
+   /* display: flex;
+   flex-wrap: wrap; */
+}
+
+.gallery-bar-section {
+   display: inline-flex;
+   margin: 1rem 3rem;
+   gap: 3rem;
+}
+
+/* .gallery-bar-section-item {
+   margin-right: 10px;
+} */
+
+.gallery-item {
+   margin: 10px;
+}
+
+.gallery-item img {
+   object-fit: cover;
+   max-width: 200px;
+   height: 150px;
+   border: none;
+   border-radius: 10px;
+}
+
+.pagination {
+   margin-top: 20px;
+}
+
+.pagination button {
+   margin: 0 0px;
+   padding: 3px;
+   /* color: #212EA0; */
+}
+
+.pagination button.active {
+   font-weight: bold;
+   background: #212EA0;
+   border: 2px solid #212EA0;
+   border-radius: 3px;
+   color: white;
+}
+
+.pagination button:hover {
+   cursor: pointer;
+}
