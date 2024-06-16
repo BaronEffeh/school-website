@@ -23,9 +23,9 @@ const Navbar = () => {
       <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
          <div className="top-nav">
             <ul className='top-nav-menu'>
-               <li><Link to='/e-portal'>E-Portal</Link></li>
-               <li><Link to='/alumni'>Alumni</Link></li>
-               <li><Link to='/pta'>PTA</Link></li>
+               <li><Link to='/signup-login' className='top-nav-menu-item'>E-Portal</Link></li>
+               <li><Link to='/alumni' className='top-nav-menu-item'>Alumni</Link></li>
+               <li><Link to='/pta' className='top-nav-menu-item'>PTA</Link></li>
             </ul>
          </div>
          <Link to="/"><img src={logo} alt="" className='logo' /></Link>

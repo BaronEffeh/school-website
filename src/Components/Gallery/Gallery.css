@@ -2,6 +2,7 @@
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    gap: 5px;
+
    /* display: flex;
    flex-wrap: wrap; */
 }
@@ -18,14 +19,20 @@
 
 .gallery-item {
    margin: 10px;
+   transition: transform 0.2s;
+}
+
+.gallery-item:hover {
+   transform: scale(1.05);
 }
 
 .gallery-item img {
    object-fit: cover;
-   max-width: 200px;
+   max-width: 250px;
    height: 150px;
    border: none;
    border-radius: 10px;
+
 }
 
 .pagination {
@@ -33,9 +40,20 @@
 }
 
 .pagination button {
-   margin: 0 0px;
-   padding: 3px;
+   margin: 0 3px;
+   padding: 10px;
+   border: none;
+   height: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    /* color: #212EA0; */
+}
+
+.left-arrow {
+   object-fit: contain;
+   height: 5px;
+   width: 15px;
 }
 
 .pagination button.active {
@@ -48,4 +66,13 @@
 
 .pagination button:hover {
    cursor: pointer;
+}
+
+.page-nav {
+   background: #6b77e9;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* height: 20px; */
+   width: 5px;
 }

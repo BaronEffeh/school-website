@@ -56,6 +56,7 @@ nav ul li {
 
 .menu-icon {
    display: none;
+   margin-top: 30px;
 }
 
 /* ----- media query ----- */
@@ -100,5 +101,31 @@ nav ul li {
 
    .hide-mobile-menu {
       right: -200px;
+   }
+
+   .top-nav {
+      width: 200px;
+   }
+
+   .top-nav-menu {
+      margin-top: 0;
+      margin-left: 3px;
+   }
+
+   .top-nav ul {
+      display: flex;
+      flex-direction: row;
+      margin-left: 0;
+      position: relative;
+      justify-content: space-evenly;
+
+
+      top: 0;
+      right: 3px;
+      font-size: 10px;
+   }
+
+   .top-nav-menu .top-nav-menu-item {
+      display: inline-flex;
    }
 }

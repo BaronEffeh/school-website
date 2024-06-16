@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Gallery.css';
 import left_arrow from '../../assets/left.svg';
+import right_arrow from '../../assets/right-arrow.png';
 
 const Gallery = ({ images }) => {
   const [category, setCategory] = useState('All');
@@ -57,7 +58,7 @@ const Gallery = ({ images }) => {
       <div className="gallery-bar-section">
         <div className='gallery-bar-section-item'>
           <label>
-            Category:
+            Sort by Category:
             <select value={category} onChange={handleCategoryChange}>
               <option value="All">All</option>
               <option value="Academic">Academic</option>
@@ -89,13 +90,12 @@ const Gallery = ({ images }) => {
         {displayedImages.map((image) => (
           <div key={image.id} className="gallery-item">
             <img src={image.image} alt={image.title} />
-            <p>{image.title}</p>
-          </div>
+            <p>{image.title}</p></div>
         ))}
       </div>
       <div className="pagination">
-        <button onClick={handlePreviousPage} disabled={currentPage === 1} >
-          Previous <img src={left_arrow} alt="" style={{ height: '30px', width: '30px' }} />
+        <button onClick={handlePreviousPage} disabled={currentPage === 1} className='page-nav' >
+          <img src={left_arrow} alt="" style={{ height: '30px', width: '30px' }} className='left-arrow' />
         </button>
         {Array.from({ length: totalPages }, (_, index) => (
           <button
@@ -106,8 +106,8 @@ const Gallery = ({ images }) => {
             {index + 1}
           </button>
         ))}
-        <button onClick={handleNextPage} disabled={currentPage === totalPages}>
-          Next
+        <button onClick={handleNextPage} disabled={currentPage === totalPages} className='page-nav'>
+          Next <img src={right_arrow} alt="" style={{ height: '30px', width: '30px' }} className='left-arrow' />
         </button>
       </div>
     </div>

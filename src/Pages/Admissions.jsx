@@ -1,5 +1,6 @@
 import React from 'react'
 import PageBanner from '../Components/PageBanner/PageBanner'
+import AdmissionPage from '../Components/AdmissionPage/AdmissionPage'
 
 const Admissions = () => {
    return (
@@ -9,6 +10,8 @@ const Admissions = () => {
 
          <h1>Admission Page!</h1>
          <p>This page is under construction! Coming up soon...</p>
+
+         <AdmissionPage />
       </div>
    )
 }
