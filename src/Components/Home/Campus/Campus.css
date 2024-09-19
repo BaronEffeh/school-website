@@ -21,6 +21,10 @@
    color: #fff;
 }
 
+.btn.dark-btn:hover {
+   background-color: #2a38b4;
+}
+
 /* ----- media query ----- */
 
 @media (max-width: 800px) {

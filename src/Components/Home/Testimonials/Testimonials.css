@@ -17,6 +17,14 @@
    background: #212EA0;
 }
 
+.next-btn:hover {
+   background: #2a38b4;
+}
+
+.back-btn:hover {
+   background: #2a38b4;
+}
+
 .back-btn {
    right: auto;
    left: 0;

@@ -43,6 +43,8 @@ a {
 .container {
   padding-left: 10%;
   padding-right: 10%;
+  margin-top: -5rem;
+  margin-bottom: 5rem;
 }
 
 .btn {

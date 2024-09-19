@@ -11,12 +11,16 @@ import Admissions from './Pages/Admissions';
 import Error404 from './Pages/Error404';
 import GalleryPage from './Pages/GalleryPage';
 import SignUpLogInPage from './Pages/SignUpLogInPage';
+import { CssBaseline } from '@mui/material';
+import ScrollToTop from './Components/Context/ScrollToTop';
 
 const App = () => {
 
   return (
     <div>
+      <CssBaseline />
       <BrowserRouter>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -26,7 +30,7 @@ const App = () => {
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/admissions' element={<Admissions />} />
           <Route path='/gallery' element={<GalleryPage />} />
-          <Route path='/signup-login' element={<SignUpLogInPage />} />
+          <Route path='/login' element={<SignUpLogInPage />} />
           <Route path='*' element={<Error404 />} />
         </Routes>
         <Footer />
