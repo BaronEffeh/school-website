@@ -10,12 +10,93 @@ import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import FamilyRestroomIcon from '@mui/icons-material/FamilyRestroom';
 
 const milestones = [
-   { icon: <GroupIcon color='primary' />, number: 265, label: 'Students' },
-   { icon: <MenuBookIcon color='primary' />, number: 17, label: 'Subjects', suffix: '+' },
-   { icon: <Diversity3Icon color='primary' />, number: 45, label: 'Staff' },
-   { icon: <SchoolIcon color='primary' />, number: 740, label: 'Alumni Across the Globe', suffix: '+' },
-   { icon: <AutoAwesomeIcon color='primary' />, number: 58, label: 'Scholarships', suffix: '+' },
-   { icon: <FamilyRestroomIcon color='primary' />, number: 680, label: 'Happy Parents' },
+   {
+      icon: <GroupIcon
+         color='primary'
+         sx={{
+            backgroundColor: '#212EA0',
+            width: '50px',
+            height: '50px',
+            borderRadius: '50%',
+            color: '#fff'
+         }}
+      />,
+      number: 265,
+      label: 'Students'
+   },
+   {
+      icon: <MenuBookIcon
+         color='primary'
+         sx={{
+            backgroundColor: '#212EA0',
+            width: '50px',
+            height: '50px',
+            borderRadius: '50%',
+            color: '#fff'
+         }}
+      />,
+      number: 17,
+      label: 'Subjects',
+      suffix: '+'
+   },
+   {
+      icon: <Diversity3Icon
+         color='primary'
+         sx={{
+            backgroundColor: '#212EA0',
+            width: '50px',
+            height: '50px',
+            borderRadius: '50%',
+            color: '#fff'
+         }}
+      />,
+      number: 45,
+      label: 'Staff'
+   },
+   {
+      icon: <SchoolIcon
+         color='primary'
+         sx={{
+            backgroundColor: '#212EA0',
+            width: '50px',
+            height: '50px',
+            borderRadius: '50%',
+            color: '#fff'
+         }}
+      />,
+      number: 925,
+      label: 'Alumni Across the Globe',
+      suffix: '+'
+   },
+   {
+      icon: <AutoAwesomeIcon
+         color='primary'
+         sx={{
+            backgroundColor: '#212EA0',
+            width: '50px',
+            height: '50px',
+            borderRadius: '50%',
+            color: '#fff'
+         }}
+      />,
+      number: 58,
+      label: 'Scholarships',
+      suffix: '+'
+   },
+   {
+      icon: <FamilyRestroomIcon
+         color='primary'
+         sx={{
+            backgroundColor: '#212EA0',
+            width: '50px',
+            height: '50px',
+            borderRadius: '50%',
+            color: '#fff'
+         }}
+      />,
+      number: 680,
+      label: 'Happy Parents'
+   },
 ];
 
 const Milestones = () => {

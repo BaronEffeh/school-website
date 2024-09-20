@@ -11,6 +11,8 @@ import Admissions from './Pages/Admissions';
 import Error404 from './Pages/Error404';
 import GalleryPage from './Pages/GalleryPage';
 import SignUpLogInPage from './Pages/SignUpLogInPage';
+import TermsOfService from './Pages/TermsOfService';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
 import { CssBaseline } from '@mui/material';
 import ScrollToTop from './Components/Context/ScrollToTop';
 
@@ -31,6 +33,8 @@ const App = () => {
           <Route path='/admissions' element={<Admissions />} />
           <Route path='/gallery' element={<GalleryPage />} />
           <Route path='/login' element={<SignUpLogInPage />} />
+          <Route path='/terms-of-service' element={<TermsOfService />} />
+          <Route path='/policy' element={<PrivacyPolicy />} />
           <Route path='*' element={<Error404 />} />
         </Routes>
         <Footer />

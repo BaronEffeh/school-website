@@ -1,4 +1,4 @@
-# React + Vite
+# School Website
 
 ```markdown
 # School Website

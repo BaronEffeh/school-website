@@ -26,6 +26,14 @@ class PageBanner extends React.Component {
             pageTitle = 'Gallery';
             pageDescription = 'Home / Gallery';
             break;
+         case 'Terms of Service':
+            pageTitle = 'Terms of Service';
+            pageDescription = 'Home / Terms of Service';
+            break;
+         case 'Privacy Policy':
+            pageTitle = 'Privacy Policy';
+            pageDescription = 'Home / Privacy Policy';
+            break;
 
          default:
             pageTitle = 'Our Programs';
