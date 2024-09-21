@@ -4,14 +4,14 @@ import AuthPage from '../Components/SignUpLogIn/AuthPage';
 
 const SignUpLogInPage = () => {
    useEffect(() => {
-      document.title = "Login - Edusity";
+      document.title = "Login - CHINS";
    }, []);
 
    return (
       <div style={{ marginTop: "-5rem", marginBottom: "5.5rem" }}>
          <Helmet>
-            <title>Login - Edusity</title>
-            <meta name="description" content="Edusity Login, Academic Portal, Edusity Portal, E-Portal, and academic offerings." />
+            <title>Login - CHINS</title>
+            <meta name="description" content="CHINS Login, Academic Portal, CHINS Portal, E-Portal, and academic offerings." />
          </Helmet>
          <AuthPage />
       </div>

@@ -37,7 +37,7 @@ const Extracurricular = () => {
             </Typography>
             <Divider sx={{ width: '5rem', height: '4px', mx: 'auto', mb: 2, backgroundColor: '#212EA0' }} />
             <Typography sx={{ fontSize: '18px' }}>
-               We believe that learning extends beyond the classroom. Our vibrant extracurricular programs provide students with opportunities to explore their interests, develop new skills, and build lasting friendships. From athletics and arts to clubs and community service, <b>there is something for everyone at Edusity.</b>
+               We believe that learning extends beyond the classroom. Our vibrant extracurricular programs provide students with opportunities to explore their interests, develop new skills, and build lasting friendships. From athletics and arts to clubs and community service, <b>there is something for everyone at CHINS.</b>
             </Typography>
          </Box>
 
@@ -121,7 +121,7 @@ export default Extracurricular;
 //          <div className="extracurricular-desc">
 //             <h1 className='extracurricular-title'>Extracurricular Activities</h1>
 //             <hr />
-//             <p className='extracurricular-text'>We believe that learning extends beyond the classroom. Our vibrant extracurricular programs provide students with opportunities to explore their interests, develop new skills, and build lasting friendships. From athletics and arts to clubs and community service, <b>there is something for everyone at Edusity.</b></p>
+//             <p className='extracurricular-text'>We believe that learning extends beyond the classroom. Our vibrant extracurricular programs provide students with opportunities to explore their interests, develop new skills, and build lasting friendships. From athletics and arts to clubs and community service, <b>there is something for everyone at CHINS.</b></p>
 //          </div>
 //          <div className="extracurricular-imgs">
 //             {images.map((imageUrl, index) => (

@@ -7,14 +7,14 @@ import { Box, Typography } from '@mui/material';
 
 const GalleryPage = () => {
    useEffect(() => {
-      document.title = "Gallery - Edusity";
+      document.title = "Gallery - CHINS";
    }, []);
 
    return (
       <div className='container'>
          <Helmet>
-            <title>Gallery - Edusity</title>
-            <meta name="description" content="Edusity Gallery, Academic environment, Gallery, Edusity media, and academic offerings." />
+            <title>Gallery - CHINS</title>
+            <meta name="description" content="CHINS Gallery, Academic environment, Gallery, CHINS media, and academic offerings." />
          </Helmet>
 
          <PageBanner page='gallery' />

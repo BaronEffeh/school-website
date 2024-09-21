@@ -5,14 +5,14 @@ import { Container, Typography, Box } from '@mui/material';
 
 const TermsOfService = () => {
    useEffect(() => {
-      document.title = "Terms of Service - Edusity";
+      document.title = "Terms of Service - CHINS";
    }, []);
 
    return (
       <div className='container' style={{ backgroundColor: "#cad2d9" }} >
          <Helmet>
-            <title>Terms of Service - Edusity</title>
-            <meta name="description" content="Learn more about Edusity Terms of Service, Terms of Service, and academic offerings." />
+            <title>Terms of Service - CHINS</title>
+            <meta name="description" content="Learn more about CHINS Terms of Service, Terms of Service, and academic offerings." />
          </Helmet>
          {/* <PageBanner page='Terms of Service' /> */}
          <Container>
@@ -28,7 +28,7 @@ const TermsOfService = () => {
                   1. Introduction
                </Typography>
                <Typography variant="body1" paragraph>
-                  Welcome to Edusity’s official website. By accessing or using our website, you agree to comply with and be bound by the following terms of service.
+                  Welcome to CHINS’s official website. By accessing or using our website, you agree to comply with and be bound by the following terms of service.
                </Typography>
 
                <Typography variant="h6" gutterBottom>

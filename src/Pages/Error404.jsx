@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Error404 = () => {
    useEffect(() => {
-      document.title = "Error 404 - Edusity";
+      document.title = "Error 404 - CHINS";
    }, []);
 
    return (
       <div className='container'>
          <Helmet>
-            <title>Error 404 - Edusity</title>
-            <meta name="description" content="Edusity Error 404, Error 404." />
+            <title>Error 404 - CHINS</title>
+            <meta name="description" content="CHINS Error 404, Error 404." />
          </Helmet>
          <div className="error404" style={{ margin: '10rem' }}>
             <h1>Oops! Page Not Found.</h1>

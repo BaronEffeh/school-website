@@ -14,7 +14,7 @@ import Milestones from '../Components/Home/Milestones/Milestones'
 
 const Home = () => {
    useEffect(() => {
-      document.title = "Edusity";
+      document.title = "CHINS";
    }, []);
 
    const [playState, setPlayState] = useState(false);
@@ -22,8 +22,8 @@ const Home = () => {
    return (
       <div className='home' >
          <Helmet>
-            <title>Edusity</title>
-            <meta name="description" content="Edusity Home Page, About Edusity, Testimonials, Edusity Campus, Academic environment, Home, Edusity Contact, and academic offerings." />
+            <title>CHINS</title>
+            <meta name="description" content="CHINS Home Page, About CHINS, Testimonials, CHINS Campus, Academic environment, Home, CHINS Contact, and academic offerings." />
          </Helmet>
          {/* <Navbar /> */}
          <Hero />

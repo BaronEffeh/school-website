@@ -22,7 +22,7 @@ const Community = () => {
             </Typography>
             <Divider sx={{ width: '5rem', height: '4px', mx: 'auto', mb: 2, backgroundColor: '#212EA0' }} />
             <Typography sx={{ lineHeight: '1.5rem', fontSize: '18px' }}>
-               At Edusity, we are proud of our strong ties to the local community. Through partnerships with local organizations, volunteer initiatives, and community events, our students learn the importance of giving back and making a positive impact on the world around them.
+               At CHINS, we are proud of our strong ties to the local community. Through partnerships with local organizations, volunteer initiatives, and community events, our students learn the importance of giving back and making a positive impact on the world around them.
             </Typography>
          </Box>
 
@@ -76,7 +76,7 @@ export default Community;
 //          <div className="community-involvement-desc">
 //             <h1 className='community-involvement-title sub-title'>Community Involvement</h1>
 //             <hr className='underline' />
-//             <p>At Edusity, we are proud of our strong ties to the local community. Through partnerships with local organizations, volunteer initiatives, and community events, our students learn the importance of giving back and making a positive impact on the world around them.</p>
+//             <p>At CHINS, we are proud of our strong ties to the local community. Through partnerships with local organizations, volunteer initiatives, and community events, our students learn the importance of giving back and making a positive impact on the world around them.</p>
 //          </div>
 //          <div className="community-involvement-imgs">
 //             {images.map((imageUrl, index) => (

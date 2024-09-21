@@ -6,14 +6,14 @@ import PageBanner from '../Components/PageBanner/PageBanner'
 
 const ContactPage = () => {
    useEffect(() => {
-      document.title = "Contact - Edusity";
+      document.title = "Contact - CHINS";
    }, []);
 
    return (
       <div className='container'>
          <Helmet>
-            <title>Contact - Edusity</title>
-            <meta name="description" content="Edusity Contact, Academic environment, Contact, Email Address, Phone Number, and academic offerings." />
+            <title>Contact - CHINS</title>
+            <meta name="description" content="CHINS Contact, Academic environment, Contact, Email Address, Phone Number, and academic offerings." />
          </Helmet>
 
          <PageBanner page='contact' />

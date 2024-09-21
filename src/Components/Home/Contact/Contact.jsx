@@ -24,7 +24,7 @@ const Contact = () => {
                      <ListItemIcon>
                         <Box component="img" src={mail_icon} alt="Mail Icon" sx={{ width: 25 }} />
                      </ListItemIcon>
-                     <ListItemText primary="info@edusity.edu" />
+                     <ListItemText primary="info@chins.edu.ng" />
                   </ListItem>
                   <ListItem>
                      <ListItemIcon>
@@ -120,7 +120,7 @@ export default Contact;
 //             <h3>Send us a message <img src={msg_icon} alt="" /></h3>
 //             <p>Feel free to reach out through our contact form or any of our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.</p>
 //             <ul>
-//                <li><img src={mail_icon} alt="" />info@edusity.edu</li>
+//                <li><img src={mail_icon} alt="" />info@CHINS.edu</li>
 //                <li><img src={phone_icon} alt="" />+234 701-292-8822</li>
 //                <li><img src={location_icon} alt="" />23 Yaounde Street, Wuse Zone 6, <br /> FCT - Abuja. Nigeria.</li>
 //             </ul>

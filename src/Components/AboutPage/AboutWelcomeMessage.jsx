@@ -54,7 +54,7 @@ const AboutWelcomeMessage = () => {
             Whether you aspire to become a teacher, administrator, counselor, or educational leader, our diverse range of programs offers the perfect pathway to achieve your goals and unlock your full potential in shaping the future of education.
          </Typography>
          <Typography variant="body1" sx={{ textAlign: 'justify', lineHeight: '2rem', mt: 2 }}>
-            At Educity, we are dedicated to fostering a nurturing and stimulating environment where students can achieve their full potential. Our commitment to academic excellence, combined with a focus on character development, prepares our students to thrive in an ever-changing world.
+            At CHINS, we are dedicated to fostering a nurturing and stimulating environment where students can achieve their full potential. Our commitment to academic excellence, combined with a focus on character development, prepares our students to thrive in an ever-changing world.
          </Typography>
       </Container>
    );

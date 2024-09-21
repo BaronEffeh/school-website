@@ -5,14 +5,14 @@ import Campus from '../Components/Campus/Campus'
 
 const CampusPage = () => {
    useEffect(() => {
-      document.title = "Campus - Edusity";
+      document.title = "Campus - CHINS";
    }, []);
 
    return (
       <div className='container'>
          <Helmet>
-            <title>Campus - Edusity</title>
-            <meta name="description" content="Edusity Campus, Academic environment, Campus, and academic offerings." />
+            <title>Campus - CHINS</title>
+            <meta name="description" content="CHINS Campus, Academic environment, Campus, and academic offerings." />
          </Helmet>
          <PageBanner page='campus' />
 

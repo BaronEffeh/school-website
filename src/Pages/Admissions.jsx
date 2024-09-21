@@ -5,14 +5,14 @@ import AdmissionPage from '../Components/AdmissionPage/AdmissionPage'
 
 const Admissions = () => {
    useEffect(() => {
-      document.title = "Admissions - Edusity";
+      document.title = "Admissions - CHINS";
    }, []);
 
    return (
       <div className='container'>
          <Helmet>
-            <title>Admissions - Edusity</title>
-            <meta name="description" content="Edusity Admissions, Academic standerd, Admissions, and academic offerings." />
+            <title>Admissions - CHINS</title>
+            <meta name="description" content="CHINS Admissions, Academic standerd, Admissions, and academic offerings." />
          </Helmet>
 
          <PageBanner page='admissions' />

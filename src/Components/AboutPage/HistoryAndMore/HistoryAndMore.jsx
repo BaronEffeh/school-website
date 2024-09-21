@@ -43,7 +43,7 @@ const HistoryAndMore = () => {
                      lineHeight: '2rem',
                   }}
                >
-                  Founded in 1987, Edusity has a long-standing tradition of excellence in education and community development. What began as a small institution with a handful of dedicated teachers has grown into a thriving academic community committed to nurturing students' intellectual, emotional, and social growth.
+                  Founded in 1987, CHINS has a long-standing tradition of excellence in education and community development. What began as a small institution with a handful of dedicated teachers has grown into a thriving academic community committed to nurturing students' intellectual, emotional, and social growth.
                </Typography>
 
                <Typography variant='h6' mt={2} sx={{ borderLeft: '3px solid #212EA0', paddingLeft: '1rem' }}>
@@ -55,7 +55,7 @@ const HistoryAndMore = () => {
                      lineHeight: '2rem',
                   }}
                >
-                  Edusity was established with the vision of creating an inclusive and dynamic learning environment where students are encouraged to achieve academic excellence while developing a strong sense of personal and social responsibility. The school started with a modest building, a few classrooms, and an unwavering commitment to the belief that education has the power to transform lives.
+                  CHINS was established with the vision of creating an inclusive and dynamic learning environment where students are encouraged to achieve academic excellence while developing a strong sense of personal and social responsibility. The school started with a modest building, a few classrooms, and an unwavering commitment to the belief that education has the power to transform lives.
                </Typography>
             </Grid>
          </Grid>
@@ -69,7 +69,7 @@ const HistoryAndMore = () => {
                lineHeight: '2rem',
             }}
          >
-            As the years passed, the school experienced significant growth. Our curriculum expanded to include a wide range of subjects designed to provide students with the knowledge and skills needed to excel in a rapidly changing world. From its humble beginnings, Edusity now boasts state-of-the-art facilities, modern classrooms, science and computer labs, a well-stocked library, and extensive extracurricular programs that cater to the diverse interests and talents of our students.
+            As the years passed, the school experienced significant growth. Our curriculum expanded to include a wide range of subjects designed to provide students with the knowledge and skills needed to excel in a rapidly changing world. From its humble beginnings, CHINS now boasts state-of-the-art facilities, modern classrooms, science and computer labs, a well-stocked library, and extensive extracurricular programs that cater to the diverse interests and talents of our students.
          </Typography>
 
          <Typography variant='h6' mt={2} sx={{ borderLeft: '3px solid #212EA0', paddingLeft: '1rem' }}>
@@ -93,7 +93,7 @@ const HistoryAndMore = () => {
                lineHeight: '2rem',
             }}
          >
-            As we move forward, Edusity continues to adapt to the challenges and opportunities of the 21st century. We are proud of our legacy but also focused on the future, embracing innovative teaching methods and technologies that enhance learning experiences. Our goal is to continue providing a world-class education that empowers students to think critically, act compassionately, and contribute positively to their communities.
+            As we move forward, CHINS continues to adapt to the challenges and opportunities of the 21st century. We are proud of our legacy but also focused on the future, embracing innovative teaching methods and technologies that enhance learning experiences. Our goal is to continue providing a world-class education that empowers students to think critically, act compassionately, and contribute positively to their communities.
          </Typography>
          <Typography
             sx={{
@@ -101,7 +101,7 @@ const HistoryAndMore = () => {
                lineHeight: '2rem',
             }}
          >
-            Today, Edusity stands as a beacon of educational excellence, where students of all backgrounds come together to learn, grow, and make a difference. We invite you to join us in this journey of discovery and achievement as we continue to shape the leaders of tomorrow.
+            Today, CHINS stands as a beacon of educational excellence, where students of all backgrounds come together to learn, grow, and make a difference. We invite you to join us in this journey of discovery and achievement as we continue to shape the leaders of tomorrow.
          </Typography>
       </Box>
    );

@@ -5,14 +5,14 @@ import { Container, Typography, Box } from '@mui/material';
 
 const PrivacyPolicy = () => {
    useEffect(() => {
-      document.title = "Privacy Policy - Edusity";
+      document.title = "Privacy Policy - CHINS";
    }, []);
 
    return (
       <div className='container' style={{ backgroundColor: "#cad2d9" }} >
          <Helmet>
-            <title>Privacy Policy - Edusity</title>
-            <meta name="description" content="Learn more about Edusity Privacy Policy, Privacy Policy, and academic offerings." />
+            <title>Privacy Policy - CHINS</title>
+            <meta name="description" content="Learn more about CHINS Privacy Policy, Privacy Policy, and academic offerings." />
          </Helmet>
          {/* <PageBanner page='Privacy Policy' /> */}
          <Container>
@@ -27,7 +27,7 @@ const PrivacyPolicy = () => {
                   1. Introduction
                </Typography>
                <Typography variant="body1" paragraph>
-                  At Edusity, we respect your privacy and are committed to protecting your personal data.
+                  At CHINS, we respect your privacy and are committed to protecting your personal data.
                </Typography>
 
                <Typography variant="h6" gutterBottom>

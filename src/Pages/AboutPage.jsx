@@ -12,14 +12,14 @@ import Milestones from '../Components/Home/Milestones/Milestones';
 
 const AboutPage = () => {
    useEffect(() => {
-      document.title = "About - Edusity";
+      document.title = "About - CHINS";
    }, []);
 
    return (
       <div className='container'>
          <Helmet>
-            <title>About - Edusity</title>
-            <meta name="description" content="Learn more about Edusity, our mission, vision, history, and academic offerings." />
+            <title>About - CHINS</title>
+            <meta name="description" content="Learn more about CHINS, our mission, vision, history, and academic offerings." />
          </Helmet>
          <PageBanner page='about' />
          <AboutWelcomeMessage />
@@ -57,7 +57,7 @@ export default AboutPage;
 //    return (
 //       <div className='container'>
 //          <Helmet>
-//             <title>About - Edusity</title>
+//             <title>About - CHINS</title>
 //             <meta name="description" content="This is the home page of my website." />
 //          </Helmet>
 //          <PageBanner page='about' />

@@ -5,14 +5,14 @@ import Programs from '../Components/ProgramsPage/Programs';
 
 const ProgramsPage = () => {
    useEffect(() => {
-      document.title = "Programs - Edusity";
+      document.title = "Programs - CHINS";
    }, []);
 
    return (
       <div className='container'>
          <Helmet>
-            <title>Programs - Edusity</title>
-            <meta name="description" content="Edusity Programs, Academic Programs, Programs, Subjects, and academic offerings." />
+            <title>Programs - CHINS</title>
+            <meta name="description" content="CHINS Programs, Academic Programs, Programs, Subjects, and academic offerings." />
          </Helmet>
          <PageBanner page='programs' />
 

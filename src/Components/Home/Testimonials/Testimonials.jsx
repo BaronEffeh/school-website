@@ -11,31 +11,31 @@
 // const testimonialsData = [
 //    {
 //       name: 'Baron Effeh',
-//       company: 'Edusity, Nigeria',
+//       company: 'CHINS, Nigeria',
 //       img: user_1,
 //       feedback:
-//          "Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
+//          "Choosing to pursue my degree at CHINS was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
 //    },
 //    {
 //       name: 'Baron Effeh',
-//       company: 'Edusity, Nigeria',
+//       company: 'CHINS, Nigeria',
 //       img: user_2,
 //       feedback:
-//          "Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
+//          "Choosing to pursue my degree at CHINS was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
 //    },
 //    {
 //       name: 'Baron Effeh',
-//       company: 'Edusity, Nigeria',
+//       company: 'CHINS, Nigeria',
 //       img: user_3,
 //       feedback:
-//          "Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
+//          "Choosing to pursue my degree at CHINS was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
 //    },
 //    {
 //       name: 'Baron Effeh',
-//       company: 'Edusity, Nigeria',
+//       company: 'CHINS, Nigeria',
 //       img: user_4,
 //       feedback:
-//          "Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
+//          "Choosing to pursue my degree at CHINS was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
 //    },
 // ];
 
@@ -185,11 +185,11 @@ const Testimonials = () => {
                            <img src={user_1} alt="" />
                            <div>
                               <h3>Baron Effeh</h3>
-                              <span>Edusity, Nigeria</span>
+                              <span>CHINS, Nigeria</span>
                            </div>
                         </div>
                         <Typography>
-                           Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
+                           Choosing to pursue my degree at CHINS was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
                         </Typography>
                      </div>
                   </li>
@@ -199,11 +199,11 @@ const Testimonials = () => {
                            <img src={user_2} alt="" />
                            <div>
                               <h3>Baron Effeh</h3>
-                              <span>Edusity, Nigeria</span>
+                              <span>CHINS, Nigeria</span>
                            </div>
                         </div>
                         <Typography>
-                           Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
+                           Choosing to pursue my degree at CHINS was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
                         </Typography>
                      </div>
                   </li>
@@ -213,11 +213,11 @@ const Testimonials = () => {
                            <img src={user_3} alt="" />
                            <div>
                               <h3>Baron Effeh</h3>
-                              <span>Edusity, Nigeria</span>
+                              <span>CHINS, Nigeria</span>
                            </div>
                         </div>
                         <Typography>
-                           Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
+                           Choosing to pursue my degree at CHINS was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
                         </Typography>
                      </div>
                   </li>
@@ -227,11 +227,11 @@ const Testimonials = () => {
                            <img src={user_4} alt="" />
                            <div>
                               <h3>Baron Effeh</h3>
-                              <span>Edusity, Nigeria</span>
+                              <span>CHINS, Nigeria</span>
                            </div>
                         </div>
                         <Typography>
-                           Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
+                           Choosing to pursue my degree at CHINS was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
                         </Typography>
                      </div>
                   </li>
