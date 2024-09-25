@@ -1,10 +1,17 @@
 import React from 'react';
 import { Box, Typography, Button, Container } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 // import dark_arrow from '../../../assets/dark-arrow.png';
 import heroImage from '../../../assets/hero.png';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Hero = () => {
+   const navigate = useNavigate();
+
+   const handleExplor = () => {
+      navigate('/campus');
+   }
+
    return (
       <Box
          sx={{
@@ -45,6 +52,7 @@ const Hero = () => {
             </Typography>
             <Button
                variant="contained"
+               onClick={handleExplor}
                sx={{
                   backgroundColor: '#fff',
                   color: '#08003A',

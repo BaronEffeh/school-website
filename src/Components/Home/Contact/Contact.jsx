@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Grid, Typography, TextField, Button, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
+import { Link } from 'react-router-dom';
 import msg_icon from '../../../assets/msg-icon.png';
 import mail_icon from '../../../assets/mail-icon.png';
 import phone_icon from '../../../assets/phone-icon.png';
@@ -24,13 +25,17 @@ const Contact = () => {
                      <ListItemIcon>
                         <Box component="img" src={mail_icon} alt="Mail Icon" sx={{ width: 25 }} />
                      </ListItemIcon>
-                     <ListItemText primary="info@chins.edu.ng" />
+                     <Link to='mailto:info@chins.edu.ng'>
+                        <ListItemText primary="info@chins.edu.ng" />
+                     </Link>
                   </ListItem>
                   <ListItem>
                      <ListItemIcon>
                         <Box component="img" src={phone_icon} alt="Phone Icon" sx={{ width: 25 }} />
                      </ListItemIcon>
-                     <ListItemText primary="+234 701-292-8822" />
+                     <Link to='tel:+2347012928822'>
+                        <ListItemText primary="+234 701-292-8822" />
+                     </Link>
                   </ListItem>
                   <ListItem>
                      <ListItemIcon>

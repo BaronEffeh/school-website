@@ -18,7 +18,8 @@ const milestones = [
             width: '50px',
             height: '50px',
             borderRadius: '50%',
-            color: '#fff'
+            color: '#fff',
+            '&:hover': { backgroundColor: '#2a38b4' },
          }}
       />,
       number: 265,
@@ -32,7 +33,8 @@ const milestones = [
             width: '50px',
             height: '50px',
             borderRadius: '50%',
-            color: '#fff'
+            color: '#fff',
+            '&:hover': { backgroundColor: '#2a38b4' },
          }}
       />,
       number: 17,
@@ -47,7 +49,8 @@ const milestones = [
             width: '50px',
             height: '50px',
             borderRadius: '50%',
-            color: '#fff'
+            color: '#fff',
+            '&:hover': { backgroundColor: '#2a38b4' },
          }}
       />,
       number: 45,
@@ -61,7 +64,8 @@ const milestones = [
             width: '50px',
             height: '50px',
             borderRadius: '50%',
-            color: '#fff'
+            color: '#fff',
+            '&:hover': { backgroundColor: '#2a38b4' },
          }}
       />,
       number: 925,
@@ -76,7 +80,8 @@ const milestones = [
             width: '50px',
             height: '50px',
             borderRadius: '50%',
-            color: '#fff'
+            color: '#fff',
+            '&:hover': { backgroundColor: '#2a38b4' },
          }}
       />,
       number: 58,
@@ -91,7 +96,8 @@ const milestones = [
             width: '50px',
             height: '50px',
             borderRadius: '50%',
-            color: '#fff'
+            color: '#fff',
+            '&:hover': { backgroundColor: '#2a38b4' },
          }}
       />,
       number: 680,

@@ -169,12 +169,16 @@ const Programs = () => {
             <aside className="side-links">
                <h2>Quick Links</h2>
                <ul>
+                  <li><Link to="/gallery">Gallery</Link></li>
+                  <li><Link to="/campus">Campus</Link></li>
+                  <li><Link to="/admissions">Admissions</Link></li>
+                  <li><Link to="#" target='blank'>Practice Exams</Link></li>
                   {programs.map((program, index) => (
                      <li key={index}>
                         <a href={`#${program.title.toLowerCase()}`}>{program.title}</a>
                      </li>
                   ))}
-                  <li><Link to="/admissions">Admissions</Link></li>
+
                </ul>
 
                <h2>Other Links</h2>

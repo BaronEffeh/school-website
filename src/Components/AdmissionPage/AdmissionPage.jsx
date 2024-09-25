@@ -32,7 +32,7 @@ const AdmissionPage = () => {
                                  <>
                                     1. Complete the online application form at{' '}
                                     <MuiLink component={Link} to="#">
-                                       https://www.CHINS.edu.ng
+                                       https://www.chins.edu.ng
                                     </MuiLink>{' '}
                                     or visit the school to obtain the form.
                                  </>
@@ -67,7 +67,7 @@ const AdmissionPage = () => {
                                  <>
                                     1. Complete the online application form at{' '}
                                     <MuiLink component={Link} to="#">
-                                       https://www.CHINS.edu.ng
+                                       https://www.chins.edu.ng
                                     </MuiLink>{' '}
                                     or visit the school to obtain the form.
                                  </>
@@ -120,7 +120,7 @@ const AdmissionPage = () => {
                         If you have any questions or need further information, please feel free to contact our admissions office:
                      </Typography>
                      <Typography variant="body1">
-                        <strong>Email:</strong> admissions@CHINS.edu
+                        <strong>Email:</strong> admissions@chins.edu
                      </Typography>
                      <Typography variant="body1">
                         <strong>Phone:</strong> (+234) 701-292-8822
@@ -139,23 +139,23 @@ const AdmissionPage = () => {
                   </Typography>
                   <List>
                      <ListItem>
-                        <MuiLink component={Link} to="/admissions">
-                           <ListItemText primary="Admissions" />
+                        <MuiLink component={Link} to="/programs">
+                           <ListItemText primary="Programs" />
                         </MuiLink>
                      </ListItem>
                      <ListItem>
-                        <MuiLink component={Link} to="/admissions">
-                           <ListItemText primary="Admissions" />
+                        <MuiLink component={Link} to="/campus">
+                           <ListItemText primary="Campus" />
                         </MuiLink>
                      </ListItem>
                      <ListItem>
-                        <MuiLink component={Link} to="/admissions">
-                           <ListItemText primary="Admissions" />
+                        <MuiLink component={Link} to="/gallery">
+                           <ListItemText primary="Gallery" />
                         </MuiLink>
                      </ListItem>
                      <ListItem>
-                        <MuiLink component={Link} to="/admissions">
-                           <ListItemText primary="Admissions" />
+                        <MuiLink component={Link} to="#" target='blank'>
+                           <ListItemText primary="Practice Exams" />
                         </MuiLink>
                      </ListItem>
                   </List>
