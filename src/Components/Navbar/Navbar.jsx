@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { AppBar, Toolbar, IconButton, Button, Drawer, List, ListItem, ListItemText, Link, Box } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 // import logo from '../../assets/logo.png';
-import logo from '../../assets/school-logo.png';
+import logo from '../../assets/chins-logo-white.png';
 import { Link as RouterLink } from 'react-router-dom';
 
 const Navbar = () => {
