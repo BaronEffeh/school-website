@@ -51,6 +51,11 @@
    text-align: center;
 }
 
+.gallery-link {
+   margin: 1rem auto;
+   width: fit-content;
+}
+
 @media (max-width: 768px) {
    .facilities-container {
       flex-direction: column;

@@ -5,6 +5,9 @@ import CampusImage2 from '../../assets/campusImgs/science-labs.jpg';
 import CampusImage3 from '../../assets/campusImgs/sports-complex.jpg';
 import CampusImage5 from '../../assets/campusImgs/computer-lab.jpeg';
 import CampusImage4 from '../../assets/campusImgs/art-studio.jpg';
+// import white_arrow from '../../../assets/white-arrow.png';
+import white_arrow from '../../assets/white-arrow.png';
+import { Link } from 'react-router-dom';
 
 const facilities = [
    {
@@ -46,6 +49,9 @@ const Campus = () => {
                   <p className="facility-description">{facility.description}</p>
                </div>
             ))}
+         </div>
+         <div className="gallery-link">
+            <Link to='/gallery' style={{ alignItems: 'center', justifyItems: 'center', margin: 'auto' }}><button className='btn dark-btn'>Go To Gallery <img src={white_arrow} alt="" /></button></Link>
          </div>
       </div>
    );
