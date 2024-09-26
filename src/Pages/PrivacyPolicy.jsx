@@ -19,6 +19,9 @@ const PrivacyPolicy = () => {
             {/* <h3>Privacy Policy</h3>
             <p>This page is under construction! Coming up soon...</p> */}
             <Box sx={{ paddingTop: 16, marginBottom: 4 }}>
+               <Typography variant="h5" gutterBottom sx={{ backgroundColor: "#f59542", textAlign: "center" }}>
+                  This page is under construction! Available soon...
+               </Typography>
                <Typography variant="h4" gutterBottom>
                   Privacy Policy
                </Typography>

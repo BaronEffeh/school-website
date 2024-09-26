@@ -20,6 +20,9 @@ const TermsOfService = () => {
             <p>This page is under construction! Coming up soon...</p> */}
             <h1></h1>
             <Box sx={{ marginBottom: 4, paddingTop: 16 }}>
+               <Typography variant="h5" gutterBottom sx={{ backgroundColor: "#f59542", textAlign: "center" }}>
+                  This page is under construction! Available soon...
+               </Typography>
                <Typography variant="h4" gutterBottom>
                   Terms of Service
                </Typography>
